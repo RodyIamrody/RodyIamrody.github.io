@@ -1,0 +1,154 @@
+  body {
+    margin: 0;
+  }
+
+  #wrap {
+    background-color: rgb(236, 235, 235);
+    margin: 0;
+    height: 270px;
+  }
+
+  footer {
+    min-width: 1200px;
+    height: 270px;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    /* 요소들을 수평정렬 */
+    font-size: 12px;
+    position: relative;
+
+  }
+
+  .footer_info {
+    position: absolute;
+    display: flex;
+    list-style: none;
+    top: 20%;
+    left: 10%;
+
+    z-index: 0;
+  }
+
+  .notice_box {
+    display: flex;
+    justify-content: right;
+    font-size: 15px;
+    padding-top: 30px;
+    padding-right: 15%;
+
+  }
+
+  .notice_box a {
+    font-weight: bold;
+    color: rgb(45, 45, 45);
+  }
+
+  .hr_right {
+    float: right;
+    margin-right: 15%;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    width: 250px;
+  }
+
+  .hr_left {
+    margin-left: 50px;
+    margin-right: 50px;
+    width: 1px;
+  }
+
+  .aside_box {
+    display: flex;
+  }
+
+  .area_user {
+    line-height: 2em;
+    /* 줄간격 */
+  }
+
+  .area_user_row {
+    text-align: left;
+  }
+
+
+  .area_user_row span {
+    display: flex;
+  }
+
+  .aur_title {
+    font-size: 13px;
+    font-weight: bold;
+  }
+
+  .text_bold {
+    font-size: 17px;
+    font-weight: 1000;
+  }
+
+  .area_user_row ul>li {
+    display: inline-block;
+
+  }
+
+  .area_user_row ul>li>a {
+    font-weight: 600
+  }
+
+
+  .firstlist {
+    padding-top: 10px;
+  }
+
+  #info_center {
+    width: 20%;
+  }
+
+  #info_company_ul {
+    padding: 0;
+  }
+
+  .link_imgbox {
+    display: flex;
+    justify-content: right;
+    padding-right: 15%;
+    z-index: 999;
+
+  }
+
+  .link_img {
+    display: inline-block;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    width: 20px;
+  }
+
+  .link_img .ac_content {
+    line-height: 20px;
+  }
+
+  .link_img .ac_img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .area_user_row ul li a:link {
+    color: black;
+  }
+
+  .area_user_row ul li a:visited {
+    color: black;
+  }
+
+  #copylight {
+    width: 450px;
+    bottom: -51px;
+  }
+
+  #translate {
+    display: flex;
+    justify-content: right;
+    margin-right: 15%;
+    margin-top: 10px;
+  }
