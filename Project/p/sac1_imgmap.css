@@ -1,0 +1,151 @@
+#imgmapbox {
+    min-width: 1200px;
+}
+
+.main_tit {
+    text-transform: uppercase;
+    color: rgb(176, 6, 6);
+    text-align: left;
+    margin-left: 100px;
+    font-size: 38px;
+    font-weight: 800;
+    letter-spacing: 0.2pt;
+    line-height: 100%;
+    padding: 105px 0 0
+}
+
+.main_subtit {
+    color: #747475;
+    margin-left: 110px;
+    margin-left: 110px;
+    font-size: 22px;
+    font-weight: 800;
+    letter-spacing: -0.75pt;
+    padding: 35px 0 0;
+}
+
+.Sony_img {
+    height: 950px;
+    background: url('./images/SONY/sony_map.jpg') no-repeat center top;
+    position: Relative;
+}
+
+.Sony_img a {
+    display: block;
+    width: 19px;
+    height: 19px;
+    position: Absolute;
+    left: 50%;
+}
+
+.Sony_img span.SelectBTN {
+    display: inline-block;
+}
+
+.Sony_img span.SelectBTN img {
+    transform: scale(1);
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transition: all 0.3s ease-out;
+}
+
+.Sony_img a:hover>span.SelectBTN img {
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transition: all 0.3s ease-out;
+}
+
+.Sony_img .position01 {
+    top: 486px;
+    margin-left: -244px
+}
+
+.Sony_img .position02 {
+    top: 370px;
+    margin-left: -65px
+}
+
+.Sony_img .position03 {
+    top: 358px;
+    margin-left: 19px
+}
+
+.Sony_img .position04 {
+    top: 572px;
+    margin-left: 176px
+}
+
+
+.Sony_img.ex1 {
+    height: auto;
+    background: none;
+    position: Relative;
+}
+
+.Sony_img.ex1 .bg {
+    width: 100%;
+}
+
+.Sony_img.ex1 .main_tit {
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.Sony_img.ex1 .main_subtit {
+    position: absolute;
+    top: 150px;
+    width: 100%;
+}
+
+a.SelectBTN {
+    position: Absolute;
+    left: auto;
+}
+
+a.SelectBTN.type01 {
+    /* 이어폰 좌표 */
+    bottom: 13%;
+    right: 47.5%
+}
+
+a.SelectBTN.type02 {
+    /* 컴펙트 카메라 좌표 */
+    bottom: 17%;
+    left: 34%
+}
+
+a.SelectBTN.type03 {
+    /* 악세사리 좌표*/
+    bottom: 15%;
+    right: 36%
+}
+
+a.SelectBTN.type04 {
+    /* 렌즈 좌표 */
+    top: 16%;
+    right: 50%;
+}
+
+a.SelectBTN.type05 {
+    /* 렌즈교환식 MILC 좌표 */
+    top: 51%;
+    left: 34.5%
+}
+
+a.SelectBTN.type06 {
+    /* 소형 렌즈 좌표 */
+    top: 40%;
+    left: 51.5%
+}
+
+a.SelectBTN.type07 {
+    /* 헤드폰 좌표 */
+    bottom: 49%;
+    right:30.2%;
+}
